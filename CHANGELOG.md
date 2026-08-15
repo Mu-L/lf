@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Fixed
 
 - Dead client connections no longer prevent the `quit` server command from terminating the server (#2643).
+- The `calcdirsize` command now calculates the size of the target directory for symbolic links instead of the size of the link itself (#2650).
 - Readline markers in `promptfmt` are no longer rendered as visible characters (#2657).
 - Selecting entries with the mouse no longer causes the file list to jump unexpectedly (#2664).
 
